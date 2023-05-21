@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nur Izzah Mardhiah binti Rashidi</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+
+    <style>
+      #myTable td:nth-child(3),
+      #myTable td:nth-child(4),
+      #myTable td:nth-child(5) {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>    
+    <!-- Navbar -->
+
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="https://github.com/drshahizan">
+            <i class="fab fa-github" style="font-size: 1em;"></i> <!-- set an explicit 'font-size' value -->
+            GitHub
+        </a>
+   
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/drshahizan"
+              >Home</a
+            >
+          </li>
+         
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Hello World</h1>
+        <p class="lead">
+          Welcome to my crib
+        </p>
+      </div>
+    </header>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#myTable").DataTable();
+      });
+    </script>
+  </body>
+</html>
